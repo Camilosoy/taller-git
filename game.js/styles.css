@@ -1,11 +1,19 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #f0f0f0;
+    background-image: url("CompulsiveGambling_share.jpg"); /* nombre de tu imagen */
+    background-size: cover; /* cubre toda la pantalla */
+    background-position: center; /* centrada */
+    background-repeat: no-repeat; /* que no se repita */
+    height: 100vh; /* ocupa toda la altura de la ventana */
+    margin: 0;
+    color: white; /* para que el texto sea legible sobre el fondo */
+    text-shadow: 1px 1px 3px rgb(212, 6, 6); /* sombra al texto para mejor visibilidad */
 }
 
 h1 {
-    color: #333;
+    color: #d2e70e;
+    font-size: 55px;
 }
 
 input, button {
