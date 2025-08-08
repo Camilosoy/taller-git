@@ -21,15 +21,44 @@ p {
     font-size: 35px;
 }
 
-input, button {
-    width: 20dvw;
-    padding: 10px;
-    margin: 5px;
-    font-size: 16px;
-}
 
 #hint {
     font-weight: bold;
     font-size: 18px;
     margin-top: 10px;
+}
+
+
+input {
+    width: 20dvw;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 15px; /* bordes redondeados */
+    border: 2px solid red; /* borde rojo */
+    outline: none;
+    text-align: center;
+}
+
+/* Placeholder rojo */
+input::placeholder {
+    color: red;
+    opacity: 0.8;
+}
+
+/* Botón verde */
+button {
+    width: 20dvw;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 15px; /* bordes redondeados */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover del botón */
+button:hover {
+    background-color: darkgreen;
 }
