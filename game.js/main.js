@@ -16,9 +16,11 @@ document.getElementById("BotonIniciar").addEventListener("click", function() {
 
     if (NumeroAdivinar === numeroSecreto) {
         Pista.textContent = ` ¡Felicidades! Adivinaste el número en ${Numintentos} intentos.`;
+        Pista.style.backgroundColor = "white";
         Pista.style.color = "green";
     } else {
         let diferencia = Math.abs(NumeroAdivinar - numeroSecreto);
+        Pista.style.backgroundColor = "white";
         if (diferencia <= 5) {
             Pista.textContent = "🔥 ¡Caliente!";
             Pista.style.color = "red";

@@ -8,10 +8,11 @@ body {
     height: 100vh; /* ocupa toda la altura de la ventana */
     margin: 0;
     color: white; /* para que el texto sea legible sobre el fondo */
-    text-shadow: 1px 1px 3px rgb(212, 6, 6); /* sombra al texto para mejor visibilidad */
+    /*text-shadow: 1px 1px 3px rgb(212, 6, 6); /* sombra al texto para mejor visibilidad */
 }
 
 h1 {
+    text-shadow: 1px 1px 3px rgb(212, 6, 6);
     color: #d2e70e;
     font-size: 105px;
 }
@@ -22,15 +23,20 @@ p {
 }
 
 
-#hint {
+#Pista {
+    text-align: center;
+    height: 5vh;
+    width: 15vw;
     font-weight: bold;
     font-size: 18px;
     margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
 input {
-    width: 20dvw;
+    width: 18dvw;
     padding: 10px;
     font-size: 16px;
     border-radius: 15px; /* bordes redondeados */
@@ -47,10 +53,10 @@ input::placeholder {
 
 /* Botón verde */
 button {
-    width: 20dvw;
+    width: 18dvw;
     padding: 10px 20px;
     font-size: 16px;
-    background-color: green;
+    background-color: rgb(0, 2, 128);
     color: white;
     border: none;
     border-radius: 15px; /* bordes redondeados */
@@ -60,5 +66,5 @@ button {
 
 /* Hover del botón */
 button:hover {
-    background-color: darkgreen;
+    background-color: rgb(122, 189, 13);
 }
