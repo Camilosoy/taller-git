@@ -13,7 +13,12 @@ body {
 
 h1 {
     color: #d2e70e;
-    font-size: 55px;
+    font-size: 105px;
+}
+
+p {
+    color: #ffffff;
+    font-size: 35px;
 }
 
 input, button {
