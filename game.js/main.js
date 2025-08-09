@@ -31,4 +31,13 @@ document.getElementById("BotonIniciar").addEventListener("click", function() {
     }
 
     Contador.textContent = `Intentos: ${Numintentos}`;
+
+    if (Numintentos >= 5) {
+        numeroSecreto = Math.floor(Math.random() * 100) + 1;
+        Numintentos = 0;
+        Contador.textContent = `Intentos: ${Numintentos}`;
+        Pista.textContent = "🔄 Se ha generado un nuevo número. ¡Sigue jugando!";
+        Pista.style.backgroundColor = "white";
+        Pista.style.color = "black";
+    }
 });
